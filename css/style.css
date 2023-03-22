@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+nav {
+  background-color: black;
+  height: 100%;
+  width: 100%; }
+  nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin-left: 10px; }
+    nav ul li a {
+      background-size: 100px;
+      font-size: 20px;
+      padding: 7px 13px;
+      text-transform: uppercase;
+      text-decoration: none; }
+
+.navbar-dark .navbar-nav .nav-link {
+  background-color: black;
+  font-size: 20px;
+  padding: 7px 13px;
+  color: white;
+  transition: color .5s;
+  margin-left: 0; }
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 153, 0, 0.459); }
+
+.container-fluid header nav ul li a {
+  text-decoration: none;
+  color: white; }
+
+.navbar-toggler {
+  margin-left: 15px; }
+
+.mx-auto {
+  margin-right: 25px;
+  margin-right: 15px; }
+
+.dropdown {
+  background-color: black;
+  font-size: 20px;
+  padding: 7px 13px;
+  color: white;
+  transition: color .5s;
+  margin-left: 0; }
+  .dropdown:hover {
+    color: rgba(255, 153, 0, 0.459); }
+
+.dropdown .dropdown-menu .dropdown-item {
+  background-color: black;
+  font-size: 20px;
+  color: white;
+  transition: color .5s; }
+  .dropdown .dropdown-menu .dropdown-item:hover {
+    color: rgba(255, 153, 0, 0.459); }
+
+.dropdown .dropdown-menu {
+  background-color: black;
+  border-color: #252323; }
+
+body {
+  font-family: "Alegreya Sans SC";
+  background-image: url("https://media.discordapp.net/attachments/805275192111661082/982124052892246067/jay-rembert-wTUm3le1WqI-unsplash.jpg?width=1025&height=683");
+  height: 1200px;
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center center; }
+  body #box {
+    width: 97%;
+    height: fit-content;
+    position: absolute;
+    background-color: #393737;
+    border: 4px;
+    margin: 10px;
+    padding: 10px;
+    top: 110px;
+    align-items: center; }
+    body #box p {
+      color: white;
+      font-size: 17px; }
+    body #box h1 {
+      color: #fcfbfb; }
+    body #box hr {
+      border-top: 2px solid #0f0f0f;
+      border-bottom: 2px solid #0f0f0f; }
+
+footer {
+  background-color: black;
+  background-position: left bottom;
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  -webkit-text-stroke: 0.1px white;
+  background-position: left bottom;
+  bottom: 0%; }
+
+div.redes {
+  text-align: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, auto);
+  max-width: 1400px;
+  gap: 10px;
+  margin: auto; }
+
+img {
+  max-width: 100%;
+  max-height: 100%; }
+
+.item1 {
+  grid-column: 1/3;
+  grid-row: 1/3; }
+
+.item2 {
+  grid-column: 1/2;
+  grid-row: 3/3; }
+
+.item3 {
+  grid-column: 2/3;
+  grid-row: 3/3; }
+
+.item4 {
+  grid-column: 3/4;
+  grid-row: 1/2; }
+
+.item5 {
+  grid-column: 4/4;
+  grid-row: 1/2; }
+
+.item6 {
+  grid-column: 3/5;
+  grid-row: 2/4; }
+
+.embed-container {
+  position: relative;
+  height: fit-content;
+  overflow: hidden; }
+
+.embed-container iframe {
+  position: relative;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 700px;
+  position: center; }
+
+#carouselExampleControlsNoTouching {
+  background-position: center center;
+  width: 100%;
+  height: 100%; }
+
+@media (min-width: 320px) {
+  .iframe {
+    width: 200px;
+    height: 150px; } }
+
+@media (min-width: 768px) {
+  .iframe {
+    width: 500px;
+    height: 350px; } }

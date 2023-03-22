@@ -1,0 +1,36 @@
+body {
+    font-family: "Alegreya Sans SC";
+    background-image: url("https://media.discordapp.net/attachments/805275192111661082/982124052892246067/jay-rembert-wTUm3le1WqI-unsplash.jpg?width=1025&height=683");
+    height: 1200px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center center;
+
+    #box {
+        width: 97%;
+        height: fit-content;
+        position: absolute;
+        background-color: #393737;
+        border: 4px;
+        margin: 10px;
+        padding: 10px;
+        top: 110px;
+        align-items: center;
+
+        p {
+            color: white;
+            font-size: 17px;
+        }
+
+        h1 {
+            color: rgb(252, 251, 251);
+        }
+
+        hr {
+            border-top: 2px solid #0f0f0f;
+            border-bottom: 2px solid #0f0f0f;
+        }
+    }
+
+}
+
