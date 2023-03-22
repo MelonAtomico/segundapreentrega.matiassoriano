@@ -12,6 +12,7 @@
   "description": "",
   "dependencies": {
     "node": "^19.8.1",
+    "node-sass": "^8.0.0",
     "nodemon": "^2.0.21",
     "sass": "^1.59.3"
   }
