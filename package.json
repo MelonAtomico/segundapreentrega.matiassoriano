@@ -1,6 +1,7 @@
 {
-  "name": "losvilleros-main",
+  "name": "segundapreentrega.matiassoriano",
   "version": "1.0.0",
+  "description": "��#\u0000 \u0000s\u0000e\u0000g\u0000u\u0000n\u0000d\u0000a\u0000p\u0000r\u0000e\u0000e\u0000n\u0000t\u0000r\u0000e\u0000g\u0000a\u0000.\u0000m\u0000a\u0000t\u0000i\u0000a\u0000s\u0000s\u0000o\u0000r\u0000i\u0000a\u0000n\u0000o\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,11 +10,7 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "node": "^19.8.1",
-    "node-sass": "^8.0.0",
-    "nodemon": "^2.0.21",
-    "sass": "^1.59.3"
+    "node-sass": "^8.0.0"
   }
 }

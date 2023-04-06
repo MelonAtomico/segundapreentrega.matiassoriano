@@ -82,7 +82,8 @@ body {
       color: white;
       font-size: 17px; }
     body #box h1 {
-      color: #fcfbfb; }
+      color: #fcfbfb;
+      text-align: center; }
     body #box hr {
       border-top: 2px solid #0f0f0f;
       border-bottom: 2px solid #0f0f0f; }
@@ -167,3 +168,11 @@ img {
   .iframe {
     width: 500px;
     height: 350px; } }
+
+.imgsponsor {
+  align-items: center;
+  text-align: center; }
+
+.imgsponsor:hover {
+  transform: scale(1.1);
+  transition: 500ms; }
